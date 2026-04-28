@@ -36,11 +36,15 @@ The API is fully documented via Swagger. Once the application is running, naviga
    git clone <repository-url>
    cd jackpot
 
-2. **Build the project:**
+2. **Start the docker-compose** 
+   ```bash
+ docker-compose up -d
+
+3. **Build the project:**
    ```bash
    mvn clean install
 
-3. **Run the service:**
+4. **Run the service:**
    ```bash
    mvn spring-boot:run
 
