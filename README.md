@@ -38,7 +38,7 @@ The API is fully documented via Swagger. Once the application is running, naviga
 
 2. **Start the docker-compose** 
    ```bash
- docker-compose up -d
+   docker-compose up -d
 
 3. **Build the project:**
    ```bash
