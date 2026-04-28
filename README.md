@@ -45,11 +45,11 @@ The API is fully documented via Swagger. Once the application is running, naviga
    mvn spring-boot:run
 
 
-## Deployment Notes
-
 ## Troubleshooting
 - **Build Errors:** If Maven dependency resolution fails, ensure your ~/.m2/repository is clean or force an update using mvn clean install -U.
 - **Concurrency Errors:** If you encounter frequent ObjectOptimisticLockingFailureException in logs, verify that your retry logic is catching the correct exception type.
+
+## Deployment Notes
 
 The application is configured to write logs to /var/log/jackpot/. 
 
